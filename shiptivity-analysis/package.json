@@ -1,0 +1,18 @@
+{
+  "name": "shipping-dashboard",
+  "version": "1.0.0",
+  "description": "A clean shipping analytics dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  }
+}
